@@ -10,8 +10,12 @@ starting with .bam files
 - filter1: filters indiviudal vcf files
 - other necessary inputs: 1000 Genomes SNPs (gnomAD_filtered)
 
+### Step 2.5: 
+- *if needed, adjusted sample names in individual .vcf files to match the filenames
+- can check if this is necessary using: `for f in *.vcf.gz; do echo -n "$(basename "$f"): "; bcftools query -l "$f"; done` 
+
 ## Step 3: 
 - merge_filter2: merge into 1 vcf and filter
 
 ## Step 4:
-- make relatedness matrix/or PCA 
+- make relatedness matrix and/or PCA 
