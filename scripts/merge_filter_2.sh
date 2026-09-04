@@ -2,7 +2,7 @@
 #SBATCH --mail-user=your_email@university.edu
 #SBATCH --mail-type=ALL
 #SBATCH -J merge_filter2
-#SBATCH --time=08:00:00
+#SBATCH --time=04:00:00
 #SBATCH --mem=16GB
 #SBATCH --output=merge_filter2.out
 
