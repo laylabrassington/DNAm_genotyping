@@ -18,4 +18,8 @@ starting with .bam files
 - merge_filter2.sh : merge into 1 vcf and filter
 
 ## Step 4:
-- make relatedness matrix and/or PCA 
+- make relatedness matrix and/or PCA using KING and/or plink
+- links
+    - king (https://www.kingrelatedness.com/manual.shtml)
+    - plink (https://www.cog-genomics.org/plink/) (https://zzz.bwh.harvard.edu/plink/tutorial.shtml)
+
